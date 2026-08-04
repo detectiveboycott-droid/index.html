@@ -3,18 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Posta Gönder</title>
+    <title>Talep & Başvuru Metni</title>
     <style>
-        body { font-family: Arial, sans-serif; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f9; margin: 0; text-align: center; padding: 20px; box-sizing: border-box; }
-        h1 { color: #333333; font-size: 22px; margin-bottom: 20px; }
-        .btn { display: inline-block; padding: 15px 30px; font-size: 18px; color: #ffffff; background-color: #007bff; text-decoration: none; border-radius: 8px; font-weight: bold; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: #f2f2f7; 
+            color: #1c1c1e; 
+            padding: 20px 16px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh;
+        }
+        .card { 
+            max-width: 450px; 
+            width: 100%; 
+            background: #ffffff; 
+            padding: 24px; 
+            border-radius: 20px; 
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08); 
+            text-align: center; 
+        }
+        h2 { font-size: 22px; margin-bottom: 16px; font-weight: 700; color: #000; }
+        
+        /* Metin Kutusu */
+        .text-box { 
+            background: #f8f9fa; 
+            border: 1px solid #e5e5ea; 
+            border-radius: 12px; 
+            padding: 16px; 
+            text-align: left; 
+            font-size: 14px; 
+            line-height: 1.6; 
+            max-height: 230px; 
+            overflow-y: auto; 
+            margin-bottom: 16px; 
+            white-space: pre-wrap; 
+            word-break: break-word;
+        }
+
+        /* Buton Üstündeki Vurgulu Bilgilendirme Kutusu */
+        .info-box {
+            background-color: #eef7ff;
+            border-left: 4px solid #007aff;
+            border-radius: 10px;
+            padding: 12px 14px;
+            font-size: 14px;
+            color: #1c1c1e;
+            text-align: left;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+        .info-box strong {
+            color: #007aff;
+            font-weight: 700;
+        }
+
+        /* Butonlar */
+        .btn { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%; 
+            padding: 16px; 
+            border: none; 
+            border-radius: 14px; 
+            font-size: 16px; 
+            font-weight: 600; 
+            cursor: pointer; 
+            text-decoration: none; 
+            margin-bottom: 12px; 
+            transition: background-color 0.2s, transform 0.1s; 
+        }
+        .btn:active { transform: scale(0.98); }
+        .btn-copy { background-color: #007aff; color: #ffffff; }
+        .btn-cimer { background-color: #e5e5ea; color: #1c1c1e; }
+        .success { background-color: #34c759 !important; }
     </style>
 </head>
 <body>
 
-    <h1>Buraya tıklayarak anında mail gönderebilirsiniz:</h1>
+    <div class="card">
+        <h2>Talep & Başvuru Metni</h2>
+        
+        <!-- HAZIR METİN ALANI -->
+        <div class="text-box" id="petitionText">T.C. İletişim Başkanlığına,
 
-    <a href="mailto:bilgi%40iletisim.gov.tr%2C%20webinfo%40iletisim.gov.tr?subject=IDF%20T%C3%BCrk%C3%A7e%20hesab%C4%B1n%C4%B1n%20eri%C5%9Fime%20engellenmesi%20talebim...&body=Merhaba%2C%0A%0AMalumunuzdur%20ki%20Siyonist%20ter%C3%B6r%20rejiminin%20s%C3%B6zde%20resmi%20askeri%20X%20hesab%C4%B1%20IDF%20T%C3%BCrk%C3%A7e%20(%40TurkishIDF)%20aktif%20bir%20%C5%9Fekilde%20propaganda%20faaliyetlerini%20s%C3%BCrd%C3%BCrmekte.%0AMilli%20de%C4%9Ferlerine%20ba%C4%9Fl%C4%B1%20ve%20vatansever%20bir%20vatanda%C5%9F%20olarak%20bu%20durumdan%20son%20derece%20rahats%C4%B1z%20olmaktay%C4%B1m.%20Bu%20s%C3%B6zde%20resmi%20hesap%2C%20aral%C4%B1ks%C4%B1z%20%C5%9Fekilde%20yapt%C4%B1%C4%9F%C4%B1%20payla%C5%9F%C4%B1mlarla%20i%C5%9Fgallerini%20me%C5%9Frula%C5%9Ft%C4%B1rmakta%2C%20milletimizin%20de%C4%9Ferlerini%20a%C5%9Fa%C4%9F%C4%B1lamakta%20ve%20bayramlar%20gibi%20%C3%B6zel%20g%C3%BCnlerimizde%20kutlama%20a%C3%A7%C4%B1klamas%C4%B1%20yaparak%20a%C3%A7%C4%B1k%C3%A7a%20bizlerle%20dalga%20ge%C3%A7mektedir.%20%0A%E2%80%9CS%C4%B1radaki%20hedef%20T%C3%BCrkiye%E2%80%9D%20slogan%C4%B1%20ile%20hareket%20eden%20ve%20topraklar%C4%B1m%C4%B1z%C4%B1n%20kendilerine%20vaad%20edildi%C4%9Fine%20dair%20saplant%C4%B1l%C4%B1%20bir%20d%C3%BCnya%20g%C3%B6r%C3%BC%C5%9F%C3%BC%20ile%20ad%C4%B1m%20ad%C4%B1m%20i%C5%9Fgallerini%20geni%C5%9Fleten%20bu%20ter%C3%B6r%20unsurunun%20s%C3%B6z%20konusu%20sosyal%20medya%20hesab%C4%B1%20arac%C4%B1l%C4%B1%C4%9F%C4%B1yla%20%C3%BClkemizdeki%20kamu%20d%C3%BCzenini%20bozdu%C4%9Fu%20a%C5%9Fikard%C4%B1r.%0A%0A%C3%9Cstelik%20bu%20ter%C3%B6r%20unsuru%20her%20f%C4%B1rsatta%20milletimize%2C%20y%C3%B6neticilerimize%20ve%20T%C3%BCrkiye%20Cumhuriyeti%20devletimize%20olur%20olmad%C4%B1k%20iftiralar%20atmaktad%C4%B1r.%20Sahadaki%20ve%20masadaki%20b%C3%BCt%C3%BCn%20hamlelerini%20vatan%C4%B1m%C4%B1za%20kar%C5%9F%C4%B1%20bir%20tehdit%20olarak%20tasarlayan%20bu%20ter%C3%B6r%20unsuru%2C%20tart%C4%B1%C5%9Fmas%C4%B1z%20%C5%9Fekilde%20vatan%C4%B1m%C4%B1z%C4%B1n%20bekas%C4%B1na%20kar%C5%9F%C4%B1%20y%C3%BCzy%C4%B1l%C4%B1n%20en%20b%C3%BCy%C3%BCk%20tehdidi%20konumundad%C4%B1r.%0AGelecek%20nesillerimize%20ter%C3%B6r%20militanlar%C4%B1n%C4%B1n%20propagandalar%C4%B1ndan%20ar%C4%B1nd%C4%B1r%C4%B1lm%C4%B1%C5%9F%20huzur%20ve%20bar%C4%B1%C5%9F%20i%C3%A7erisinde%20bir%20sosyal%20medya%20emanet%20etmek%20istedi%C4%9Fimden%20s%C3%B6z%20konusu%20IDF%20T%C3%BCrk%C3%A7e%20(%40TurkishIDF)%20X%20hesab%C4%B1n%C4%B1n%20T%C3%BCrkiye%20genelinde%20eri%C5%9Fime%20engellenmesi%20gerekti%C4%9Fini%20bildiririm.%20Gere%C4%9Finin%20yap%C4%B1lmas%C4%B1n%C4%B1%20arz%20ederim.%0A" class="btn">Mail Uygulamasını Aç ve Gönder</a>
+Malumunuzdur ki Siyonist terör rejiminin sözde resmi askeri X hesabı IDF Türkçe (@TurkishIDF) aktif bir şekilde propaganda faaliyetlerini sürdürmekte.
+Milli değerlerine bağlı ve vatansever bir vatandaş olarak bu durumdan son derece rahatsız olmaktayım. Bu sözde resmi hesap, aralıksız şekilde yaptığı paylaşımlarla işgallerini meşrulaştırmakta, milletimizin değerlerini aşağılamakta ve bayramlar gibi özel günlerimizde kutlama açıklaması yaparak açıkça bizlerle dalga geçmektedir. 
+“Sıradaki hedef Türkiye” sloganı ile hareket eden ve topraklarımızın kendilerine vaad edildiğine dair saplantılı bir dünya görüşü ile adım adım işgallerini genişleten bu terör unsurunun söz konusu sosyal medya hesabı aracılığıyla ülkemizdeki kamu düzenini bozduğu aşikardır.
+
+Üstelik bu terör unsuru her fırsatta milletimize, yöneticilerimize ve Türkiye Cumhuriyeti devletimize olur olmadık iftiralar atmaktadır. Sahadaki ve masadaki bütün hamlelerini vatanımıza karşı bir tehdit olarak tasarlayan bu terör unsuru, tartışmasız şekilde vatanımızın bekasına karşı yüzyılın en büyük tehdidi konumundadır.
+Gelecek nesillerimize terör militanlarının propagandalarından arındırılmış huzur ve barış içerisinde bir sosyal medya emanet etmek istediğimden söz konusu IDF Türkçe (@TurkishIDF) X hesabının Türkiye genelinde erişime engellenmesi gerektiğini bildiririm. Gereğinin yapılmasını arz ederim.
+</div>
+
+        <!-- İSTEDİĞİN BİLGİLENDİRME YAZISI (BUTONUN HEMEN ÜSTÜNDE) -->
+        <div class="info-box">
+            Aşağıdaki buton ile talep metnini kopyalayınız. Ardından CİMER sitesine girip bu metni yapıştırınız. Başvuru türü olarak <strong>İSTEK</strong>, hedef olarak <strong>İLETİŞİM BAŞKANLIĞI</strong> seçilecek.
+        </div>
+
+        <!-- BUTONLAR -->
+        <button class="btn btn-copy" id="copyBtn" onclick="copyText()">1. Metni Kopyala</button>
+        <a href="https://www.cimer.gov.tr" target="_blank" class="btn btn-cimer">2. CİMER'e Git (cimer.gov.tr)</a>
+    </div>
+
+    <script>
+        function copyText() {
+            const text = document.getElementById("petitionText").innerText;
+            
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = document.getElementById("copyBtn");
+                btn.innerText = "Kopyalandı! ✓";
+                btn.classList.add("success");
+                
+                setTimeout(() => {
+                    btn.innerText = "1. Metni Kopyala";
+                    btn.classList.remove("success");
+                }, 3000);
+            }).catch(() => {
+                alert("Kopyalama başarısız oldu, lütfen metni basılı tutarak kopyalayın.");
+            });
+        }
+    </script>
 
 </body>
 </html>
