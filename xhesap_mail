@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Posta Gönder</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f9; margin: 0; text-align: center; padding: 20px; box-sizing: border-box; }
+        h1 { color: #333333; font-size: 22px; margin-bottom: 20px; }
+        .btn { display: inline-block; padding: 15px 30px; font-size: 18px; color: #ffffff; background-color: #007bff; text-decoration: none; border-radius: 8px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Buraya tıklayarak anında mail gönderebilirsiniz:</h1>
+
+    <a href="mailto:info%40iletisim.gov.tr?subject=IDF%20T%C3%BCrk%C3%A7e%20hesab%C4%B1n%C4%B1n%20eri%C5%9Fime%20engellenmesi%20talebim...&body=Merhaba%2C%0A%0AMalumunuzdur%20ki%20Siyonist%20ter%C3%B6r%20rejiminin%20s%C3%B6zde%20resmi%20askeri%20X%20hesab%C4%B1%20IDF%20T%C3%BCrk%C3%A7e%20(%40TurkishIDF)%20aktif%20bir%20%C5%9Fekilde%20propaganda%20faaliyetlerini%20s%C3%BCrd%C3%BCrmekte.%0AMilli%20de%C4%9Ferlerine%20ba%C4%9Fl%C4%B1%20ve%20vatansever%20bir%20vatanda%C5%9F%20olarak%20bu%20durumdan%20son%20derece%20rahats%C4%B1z%20olmaktay%C4%B1m.%20Bu%20s%C3%B6zde%20resmi%20hesap%2C%20aral%C4%B1ks%C4%B1z%20%C5%9Fekilde%20yapt%C4%B1%C4%9F%C4%B1%20payla%C5%9F%C4%B1mlarla%20i%C5%9Fgallerini%20me%C5%9Frula%C5%9Ft%C4%B1rmakta%2C%20milletimizin%20de%C4%9Ferlerini%20a%C5%9Fa%C4%9F%C4%B1lamakta%20ve%20bayramlar%20gibi%20%C3%B6zel%20g%C3%BCnlerimizde%20kutlama%20a%C3%A7%C4%B1klamas%C4%B1%20yaparak%20a%C3%A7%C4%B1k%C3%A7a%20bizlerle%20dalga%20ge%C3%A7mektedir.%20%0A%E2%80%9CS%C4%B1radaki%20hedef%20T%C3%BCrkiye%E2%80%9D%20slogan%C4%B1%20ile%20hareket%20eden%20ve%20topraklar%C4%B1m%C4%B1z%C4%B1n%20kendilerine%20vaad%20edildi%C4%9Fine%20dair%20saplant%C4%B1l%C4%B1%20bir%20d%C3%BCnya%20g%C3%B6r%C3%BC%C5%9F%C3%BC%20ile%20ad%C4%B1m%20ad%C4%B1m%20i%C5%9Fgallerini%20geni%C5%9Fleten%20bu%20ter%C3%B6r%20unsurunun%20s%C3%B6z%20konusu%20sosyal%20medya%20hesab%C4%B1%20arac%C4%B1l%C4%B1%C4%9F%C4%B1yla%20%C3%BClkemizdeki%20kamu%20d%C3%BCzenini%20bozdu%C4%9Fu%20a%C5%9Fikard%C4%B1r.%0A%0A%C3%9Cstelik%20bu%20ter%C3%B6r%20unsuru%20her%20f%C4%B1rsatta%20milletimize%2C%20y%C3%B6neticilerimize%20ve%20T%C3%BCrkiye%20Cumhuriyeti%20devletimize%20olur%20olmad%C4%B1k%20iftiralar%20atmaktad%C4%B1r.%20Sahadaki%20ve%20masadaki%20b%C3%BCt%C3%BCn%20hamlelerini%20vatan%C4%B1m%C4%B1za%20kar%C5%9F%C4%B1%20bir%20tehdit%20olarak%20tasarlayan%20bu%20ter%C3%B6r%20unsuru%2C%20tart%C4%B1%C5%9Fmas%C4%B1z%20%C5%9Fekilde%20vatan%C4%B1m%C4%B1z%C4%B1n%20bekas%C4%B1na%20kar%C5%9F%C4%B1%20y%C3%BCzy%C4%B1l%C4%B1n%20en%20b%C3%BCy%C3%BCk%20tehdidi%20konumundad%C4%B1r.%0AGelecek%20nesillerimize%20ter%C3%B6r%20militanlar%C4%B1n%C4%B1n%20propagandalar%C4%B1ndan%20ar%C4%B1nd%C4%B1r%C4%B1lm%C4%B1%C5%9F%20huzur%20ve%20bar%C4%B1%C5%9F%20i%C3%A7erisinde%20bir%20sosyal%20medya%20emanet%20etmek%20istedi%C4%9Fimden%20s%C3%B6z%20konusu%20IDF%20T%C3%BCrk%C3%A7e%20(%40TurkishIDF)%20X%20hesab%C4%B1n%C4%B1n%20T%C3%BCrkiye%20genelinde%20eri%C5%9Fime%20engellenmesi%20gerekti%C4%9Fini%20bildiririm.%20Gere%C4%9Finin%20yap%C4%B1lmas%C4%B1n%C4%B1%20arz%20ederim.%0A" class="btn">Mail Uygulamasını Aç ve Gönder</a>
+
+    <!-- Canlı Sayaç -->
+    <div style="margin-top: 30px;">
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyeni-mail-sayacim-2026&title=Toplam%20T%C4%B1klanma&color=795548&title_color=555555&style=flat" alt="Sayaç">
+    </div>
+
+</body>
+</html>
